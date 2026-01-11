@@ -1,0 +1,45 @@
+<!-- Z-Index
+
+When boxes on a web page have a combination of different positions, the boxes
+(and therefore, their content) can overlap with each other, making the content
+dificult to read or consume.
+
+
+In the example above, the .green-box element overlaps on top of the .blue-box
+element.
+
+The z-index property controls how far back or how far forward an element should
+appear on the web page when elements overlap. This can be thought of as the depth of elements, with deeper elements appearing behind shallower elements. 
+
+The z-index property accepts integer values.
+Depending on their values, the
+integers instruct the browser on the order in which elements should be layered on
+the web page. -->
+
+<head>
+  <style>
+    .blue-box {
+      background-color: blue;
+      position: relative;
+      z-index: 1;
+    }
+    .green-box {
+      background-color: green;
+      position: relative;
+      top: -170px;
+      left: 170px;
+      z-index: 2;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="blue-box">
+    <h1>Blue Box</h1>
+    <p>This is the blue box.</p>
+  </div>
+  <div class="green-box">
+    <h1>Green Box</h1>
+    <p>This is the green box.</p>
+  </div>
+</body>

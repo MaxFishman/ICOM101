@@ -1,0 +1,38 @@
+<!-- 
+Sticky Positioning
+
+Sticky positioning is a hybrid of relative and fixed positioning. An element with sticky positioning is treated as relatively positioned until it reaches a specified position in the viewport, at which point it becomes fixed.
+
+In this example, the paragraph is positioned with sticky. As you scroll down the page, it remains 20 pixels from the top of the viewport once it reaches that point.
+ -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      div {
+        background-color: lightblue;
+        width: 100%;
+        height: 100px;
+      }
+
+      p {
+        position: sticky;
+        top: 10px;
+        background-color: coral;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>Sticky positioned paragraph</p>
+    </div>
+
+    <div class="spacer1" style="height: 100vh; background-color: aquamarine;" >
+      <br />
+    </div>
+    <div class="spacer2" style="height: 100vh">
+      <br />
+  </body>
+</html>

@@ -1,0 +1,35 @@
+<!-- 
+ 
+Relative Positioning
+
+Relative positioning is similar to static positioning, but it allows you to offset an element from its original position using the top, right, bottom, and left properties.
+
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      div {
+        position: relative;
+        background-color: lightblue;
+        width: 200px;
+        height: 100px;
+      }
+
+      p {
+        position: relative;
+        top: 10px;
+        left: 20px;
+        background-color: coral;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>Relative positioned paragraph</p>
+    </div>
+  </body>
+</html>
+
+<!-- In the example above, the paragraph is positioned relatively to its original position in the containing div element. The top and left properties move the paragraph 10 pixels down and 20 pixels to the right. -->

@@ -1,0 +1,36 @@
+<!-- 
+ 
+Absolute Positioning
+
+Absolute positioning removes an element from the normal document flow and positions it relative to the nearest positioned ancestor element. If there is no positioned ancestor, it will be positioned relative to the initial containing block (usually the html or body element).
+
+In this example, the paragraph is positioned absolutely within the div element. The top and left properties place the paragraph 50 pixels from the top and left edges of the div.
+
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      div {
+        position: relative;
+        background-color: lightblue;
+        width: 200px;
+        height: 200px;
+      }
+
+      p {
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        right: 50px;
+        background-color: coral;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>Absolute positioned paragraph</p>
+    </div>
+  </body>
+</html>

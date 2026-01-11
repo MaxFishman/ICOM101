@@ -1,0 +1,64 @@
+body {
+  background-color: black;
+  color: white;
+}
+div.margin {
+  background-color: lightgray;
+  border: dashed dimgray;
+  height: 475px;
+  color: black;
+}
+
+div.border {
+  background-color: lightgreen;
+  height: 340px;
+}
+
+div.padding {
+  background-color: lightsteelblue;
+  height: 225px;
+}
+
+div.content {
+  background-color: white;
+  border: dashed dimgray;
+  height: 100px;
+}
+
+.title {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.box-model {
+  width: 85%;
+  height: 100%;
+  margin: 0 auto;
+}
+div.example1 {
+  width: 300px;
+  border: 25px solid lightgreen;
+  padding: 25px;
+  margin: 25px;
+}
+
+div.important {
+  background-color: lightsteelblue;
+  border-left: 4px solid grey;
+  padding: 5px;
+  color: black;
+}
+
+div.example2 {
+  width: 320px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+}
+
+div.math {
+  border-top: 1px solid purple;
+  border-right: 1px solid purple;
+  border-bottom: 1px solid purple;
+  border-left: 3px solid purple;
+}
